@@ -1,0 +1,51 @@
+.slika {
+  width: 300px;
+}
+
+#pretraga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#search {
+  width: 400px;
+  height: 50px;
+}
+
+#pretrazi {
+  width: 100px;
+  height: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+#prikaz {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.clanak {
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+#prikazP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+#zanr {
+  display: show;
+}
